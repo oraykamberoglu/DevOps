@@ -1,0 +1,391 @@
+    1  pwd
+    2  cd Desktop
+    3  cd weppage.html
+    4  git config --list
+    5  git config --global user.name = "betul"
+    6  git config --global user.email = "betulkaplanduran@gmail.com"
+    7  git config --list
+    8  git init
+    9  git init
+   10  git config --global user.name = "betul"
+   11  git config --global user.email = "betulkaplan42@gmail.com"
+   12  git config --list
+   13  git init
+   14  git status
+   15  git add.
+   16  git add .
+   17  git status
+   18  git commit -m " Öğrenme amaçlı ilk dosya gönderimi"
+   19  git status
+   20  clear
+   21   code .
+   22  git status
+   23  git add HomePage.html
+   24  git status
+   25  git commit 
+   26  git commit -m "başlık değiştirildi"
+   27  git status
+   28  touch text.txt
+   29  cd css
+   30  d css
+   31  touch css
+   32  cd css
+   33  mkdir css
+   34  rm css
+   35  git status
+   36  cd deneme
+   37  rm deneme
+   38  rmdir deneme
+   39  cd ..
+   40  rm deneme
+   41  rmdir deneme
+   42  git status
+   43  git add -A
+   44  git status
+   45  git commit -m "text.txt oluşturuldu"
+   46  git status
+   47  ls -al
+   48  mv text.txt readme.txt
+   49  ls -al
+   50  git status
+   51  git add .
+   52  git status
+   53  git status -s
+   54  git commit -m "text.txt readme.txt oldu"
+   55  git status
+   56  git status -s
+   57  git add HomePage.html
+   58  git status -s
+   59  git status
+   60  git restore --staged HomepPage.html
+   61  git restore --staged HomePage.html
+   62  git status
+   63  git restore HomePage.html
+   64  git show
+   65  git log
+   66  git log --oneline
+   67  git log -p -2
+   68  git log --since=10minutes
+   69  git log --since=30minutes
+   70  git log --oneline
+   71  git status
+   72  git checkout 035c4f6
+   73  git checkout master
+   74  git log --oneline
+   75  git revet 
+   76    
+   77  git revert 6e46dc4
+   78  log status
+   79  git status
+   80  git checkout master
+   81  git log --oneline
+   82  git revert 6e46dc4
+   83  git status
+   84  git log --oneline
+   85  git revert 035c4f6
+   86  git log --oneline
+   87  git log 
+   88  git log --oneline
+   89  git branch cssbranch
+   90  git branch htmlbranch
+   91  git branch -a
+   92  git checkout cssbranch
+   93  git checkout cssbranch
+   94  git checkout master
+   95  git checkout htmlbranch
+   96  git checkout cssbranch
+   97  git status
+   98  echo $shvar
+   99  echo $ENVAR
+  100  exit
+  101  # Hands-on EC2-01 : How to Install Apache Web Server on EC2 Linux 2
+  102  ## Outline
+  103  - Part 1 - Getting to know the Apache Web Server
+  104  - Part 2 - Launching an Amazon Linux 2 EC2 instance and Connect with SSH
+  105  - Part 3 - Installing and Configuring Apache Web Server to Run `Hello World` Page
+  106  - Part 4 - Automation of Web Server Installation through Bash Script
+  107  ## Part 1 - Getting to know the Apache Web Server
+  108  ![Apache HTTP Server](./apache-web-server.png)
+  109  # Hands-on EC2-01 : How to Install Apache Web Server on EC2 Linux 2
+  110  ## Outline
+  111  - Part 1 - Getting to know the Apache Web Server
+  112  - Part 2 - Launching an Amazon Linux 2 EC2 instance and Connect with SSH
+  113  - Part 3 - Installing and Configuring Apache Web Server to Run `Hello World` Page
+  114  - Part 4 - Automation of Web Server Installation through Bash Script
+  115  ## Part 1 - Getting to know the Apache Web Server
+  116  ![Apache HTTP Server](./apache-web-server.png)
+  117   cut -d: -f1,3 etc/passwd | tail -3
+  118  git clone https://github.com/betul-kaplan/kittens-project.git
+  119  git clone https://github.com/betul-kaplan/kittens-project.git
+  120  exit
+  121  ssh -i firstkey.pem ec2-user@Public IP 34.203.197.83
+  122  exit
+  123  sudo useradd betul
+  124  sudo su
+  125  ps1
+  126  PS1
+  127  echo $PS1
+  128  s=$(curl -s http://www.imdb.com/title/tt0092455/episodes?season=1 | grep "item_description" | sed 's/<div class=\"item_description\" itemprop=\"description\">//' | sed 's/<\/div>/\|/')
+  129  mysql -h ec2-3-83-109-101.compute-1.amazonaws.com -u clarususer -p
+  130  mysql -h ec2-3-83-109-101.compute-1.amazonaws.com -u clarususer -p
+  131  sudo mysql -h ec2-3-83-109-101.compute-1.amazonaws.com -u clarususer -p
+  132  git config --global credantial.helper store
+  133  vim git config
+  134  git config --global credantial.help store
+  135  vim .gitconfig
+  136  git config --global user.name "betul"
+  137  git config --global user.email "betulkaplanduran@gmail.com"
+  138  git config --global core.editor "vim"
+  139  git clone https://github.com/betul-kaplan/my-projects.git
+  140  ls
+  141  cd my-projects
+  142  git pull
+  143  ls
+  144  cd myprojects
+  145  cd my-projects
+  146  ls
+  147  git pull
+  148  ls
+  149  cd python
+  150  touch test.py
+  151  git push test.py
+  152  git log
+  153  vim hello.py
+  154  git status
+  155  rmdir test.py
+  156  rm test.py
+  157  git status
+  158  git add hello.py
+  159  git push hello.py
+  160  ls
+  161  git clone https://github.com/betul-kaplan/deneme.git
+  162  cd ~
+  163  git clone https://github.com/betul-kaplan/deneme.git
+  164  vim hello.py
+  165  git push hello.py
+  166  ls
+  167  cd deneme
+  168  ls
+  169  vim hello.py
+  170  git push hello.py
+  171  git add .
+  172  ls
+  173  git add .
+  174  git commit -m "new file"
+  175  git push
+  176  git clone https://github.com/betul-kaplan/My-Shell-Scripts.git
+  177  ls
+  178  cd My-Shell-Scripts/
+  179  vim read_input_on_terminal.sh
+  180  git add .
+  181  git commit -m "new script file added"
+  182  git push
+  183  vim Pass_arguments_to_Bash_Script.sh
+  184  git add .
+  185  git commit -m "Pass-arg-script file added"
+  186  git push
+  187  vim if_statements.sh
+  188  git add .
+  189  git commit -m "If statements script file added"
+  190  git push
+  191  vim File_Test_Operators.sh
+  192  git add .
+  193  git commit -m "File-test-operators.sh added"
+  194  git push
+  195  vim Logical_AND_Operator.sh
+  196  git add .
+  197  git commit -m "Logical_AND_Operator script file added"
+  198  git push
+  199  vim Logical_OR_Operator.sh
+  200  git add .
+  201  git commit -m "Logical_or_operator script file added"
+  202  git push
+  203  ls
+  204  cd My-Shell-Scripts/
+  205  vim Aritmatic-Operations.sh
+  206  git add .
+  207  git commit -m "Aritmetic Operations script file added"
+  208  git push
+  209  vim Aritmetic_Operation_with_Floating_Numbers.sh
+  210  git add .
+  211  git commit -m "Aritmetic_Operation_with_Floating_Numbers script file added"
+  212  git push
+  213  vim Case_statement.sh
+  214  git add .
+  215  git commit -m "Case_Statement script file added"
+  216  git push
+  217  vim String_Operators.sh
+  218  git add .
+  219  git commit -m "string operator script file added"
+  220  git push
+  221  ls
+  222  cd My-Shell-Scripts/
+  223  vim Array_Variables.sh
+  224  git add .
+  225  git commit -m "array varriables script file added"
+  226  git push
+  227  ls
+  228  cd My-Shell-Scripts/
+  229  vim while_Loops.sh
+  230  git add .
+  231  git commit -m "while loop script file added"
+  232  git push
+  233  vim Read_File_Content.sh
+  234  git add .
+  235  git commit -m "Read file content script file added"
+  236  git push
+  237  vim Until_Loops.sh
+  238  bash Until_Loops.sh
+  239  vim Until_Loops.sh
+  240  bash Until_Loops.sh
+  241  bash Until_Loops.sh
+  242  vim Until_Loops.sh
+  243  bash Until_Loops.sh
+  244  vim Until_Loops.sh
+  245  bash Until_Loops.sh
+  246  vim Until_Loops.sh
+  247  bash Until_Loops.sh
+  248  vim Until_Loops.sh
+  249  bash Until_Loops.sh
+  250  git add .
+  251  git commit -m "Until Loop script file added"
+  252  git push
+  253  vim For_Loop.sh
+  254  git add .
+  255  git commit -m "for loop script file added"
+  256  git push
+  257  vim Bring_me_all_files.sh
+  258  git add .
+  259  git commit -m "for loop  file added"
+  260  git push
+  261  vim Select_Loop.sh
+  262  git add .
+  263  git commit -m "select loop script file added"
+  264  git push
+  265  vim function.sh
+  266  bash function.sh
+  267  git add .
+  268  git commit -m "function script file added"
+  269  git push
+  270  vim nested_functions.sh
+  271  git add .
+  272  git commit -m "nested function script file added"
+  273  git push
+  274  vim variables-scope.sh
+  275  git add .
+  276  git commit -m "variables scope file adde"
+  277  git commit -m "variables scope file added"
+  278  git push
+  279  vim .gitconfig
+  280  vim hello.sh
+  281  git add .
+  282  cd My-Shell-Scripts/
+  283  vim hello
+  284  bash hello
+  285  git add .
+  286  git commit -m "new file"
+  287  git push
+  288  git config --list
+  289  cd My-Shell-Scripts/
+  290  vi How-to -use-Crontab
+  291  vim How-to -use-Crontab.txt
+  292  vim How-to-use-Crontab.txt
+  293  vim How-to-use-Crontab.md
+  294  rm -rf How-to-use-Crontab.txt
+  295  vim How-to-use-Crontab.md
+  296  git status
+  297  git add .
+  298  git commit -m "crontab md file added"
+  299  git push
+  300  cd ..
+  301  git clone https://github.com/betul-kaplan/My-Shell-Scripts.git
+  302  cd My-Shell-Scripts/
+  303  ls
+  304  git status
+  305  vim crontab.md
+  306  git add .
+  307  git commit -m "crontab.md added"
+  308  git push
+  309  git pull
+  310  git push
+  311  ls
+  312  cd My-Shell-Scripts/
+  313  vim Case-Statement-calculater.sh
+  314  git add .
+  315  git commit -m "case statement calculater script file added"
+  316  git push
+  317  aws --version
+  318  eb --version
+  319  ls
+  320  cd My-Shell-Scripts/
+  321  vim tar.sh
+  322  git status
+  323  git add .
+  324  git status
+  325  git commit -m "tar script file added"
+  326  git push
+  327  cd My-Shell-Scripts/
+  328  vim select-case-phone.sh
+  329  git add .
+  330  git commit -m "phone.sh added"
+  331  git push
+  332  ssh -i "firstkey.pem" ec2-user@ec2-52-87-183-233.compute-1.amazonaws.com
+  333  ssh -i "firstkey.pem" ec2-user@ec2-52-87-183-233.compute-1.amazonaws.com
+  334  ssh -i "firstkey.pem" ec2-user@ec2-52-87-183-233.compute-1.amazonaws.com
+  335  ssh -i "firstkey.pem" ec2-user@ec2-52-87-183-233.compute-1.amazonaws.com
+  336  cd My-Shell-Scripts/
+  337  ls
+  338  vim infinite-loops.sh
+  339  git add .
+  340  git commit -m "infinite loop script file added"
+  341  git push
+  342  vim Until_Loops.sh 
+  343  vim Until_Loops-example.sh 
+  344  git add .
+  345  git commit -m "until loop example script file added"
+  346  git push
+  347  vim while_Loops.sh 
+  348  vim variables-scope.sh 
+  349  vim For_Loop.sh 
+  350  vim For_Loop-example.sh 
+  351  git add .
+  352  git commit -m "for loop example script file added"
+  353  git push
+  354  cd My-Shell-Scripts/
+  355  vim select-case-exeample-arac.sh
+  356  git add .
+  357  git commit -m "select-case-example-arac-script file added"
+  358  git push
+  359  cd My-Shell-Scripts/
+  360  vim file-exist.sh
+  361  git add .
+  362  git commit -m "file-exist script file added"
+  363  git push
+  364  cd My-Shell-Scripts/
+  365  ls
+  366  cat read.sh
+  367  vi read.sh
+  368  git add .
+  369  git commit -m "read file script added"
+  370  git push
+  371  cd My-Shell-Scripts/
+  372  ls
+  373  vim phone.sh
+  374  git add .
+  375  git commit -m "select case example script file added"
+  376  git push
+  377  cd My-S
+  378  cd My-Shell-Scripts/
+  379  ls
+  380  cat For_Loop.sh
+  381  cd For_Loop-example.sh 
+  382  cat For_Loop-example.sh 
+  383  vim for-array.sh
+  384  git add .
+  385  git commit -m "for array script file added"
+  386  git push
+  387  cat infinite-loops.sh 
+  388  terraform -version
+  389  aws config
+  390  aws configure show
+  391  history > history.txt
