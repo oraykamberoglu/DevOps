@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service   
+metadata:
+  name: web-flask-svc
+  labels:
+    app: web-flask
+spec:
+  type: NodePort  
+  ports:
+  - port: 3000  
+    targetPort: 5000
+  selector:
+    env: front-end
