@@ -3,7 +3,7 @@ terraform {
   required_providers {
     aws = {
       source = "hashicorp/aws"
-      version = "3.57.0"
+      version = "~> 4.0"
     }
   }
 }
@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 variable "secgr-dynamic-ports" {
-  default = [22,80,443]
+  default = [22,80,443,8080]
 }
 
 variable "instance-type" {
@@ -48,9 +48,9 @@ resource "aws_security_group" "allow_ssh" {
 resource "aws_instance" "tf-ec2" {
   ami           = "ami-087c17d1fe0178315"
   instance_type = var.instance-type
-  key_name = "tyler-team"
+  key_name = "virginia_key"
   vpc_security_group_ids = [ aws_security_group.allow_ssh.id ]
-  iam_instance_profile = "terraform"
+  iam_instance_profile = "terraform_role"
       tags = {
       Name = "Docker-engine"
   }
